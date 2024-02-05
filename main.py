@@ -1,6 +1,6 @@
 from requests import get,post
 import zipfile,os
-
+os.mkdir('result')
 def Copy(URL: str):
     data = {
   "url": URL,
